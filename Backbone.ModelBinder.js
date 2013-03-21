@@ -3,7 +3,7 @@
 // Distributed Under MIT License
 
 (function (factory) {
-    if (typeof define === 'function' && define.amd) {
+    if (typeof define === 'xfunction' && define.amd) {
         // AMD. Register as an anonymous module.
         define(['underscore', 'jquery', 'backbone'], factory);
     } else {
